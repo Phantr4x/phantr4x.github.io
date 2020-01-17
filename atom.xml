@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Inky · 墨跡手帳</title>
+  
+  <subtitle>文章墨點，述諸字節</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://localhost:4000/"/>
+  <updated>2020-01-17T06:23:47.509Z</updated>
+  <id>http://localhost:4000/</id>
+  
+  <author>
+    <name>Sh7me</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://localhost:4000/2020/01/08/hello-world/"/>
+    <id>http://localhost:4000/2020/01/08/hello-world/</id>
+    <published>2020-01-08T04:00:00.000Z</published>
+    <updated>2020-01-17T06:23:47.509Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="quick-start"><a class="header-anchor" href="#quick-start">#</a>Quick Start</h2><h3 id="create-a-new-post"><a class="header-anchor" href="#create-a-new-post">#</a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">"My New Post"</span><br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="run-server"><a class="header-anchor" href="#run-server">#</a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="generate-static-files"><a class="header-anchor" href="#generate-static-files">#</a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="deploy-to-remote-sites"><a class="header-anchor" href="#deploy-to-remote-sites">#</a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>测试 Test</title>
+    <link href="http://localhost:4000/2020/01/08/test/"/>
+    <id>http://localhost:4000/2020/01/08/test/</id>
+    <published>2020-01-08T04:00:00.000Z</published>
+    <updated>2020-01-17T06:23:36.447Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="h1-heading"><a class="header-anchor" href="#h1-heading">#</a>h1 Heading</h1><h2 id="h2-heading"><a class="header-anchor" href="#h2-heading">#</a>h2 Heading</h2><h3 id="h3-heading"><a class="header-anchor" href="#h3-heading">#</a>h3 Heading</h3><h4 id="h4-heading"><a class="header-anchor" href="#h4-heading">#</a>h4 Heading</h4><h5 id="h5-heading"><a class="header-anchor" href="#h5-heading">#</a>h5 Heading</h5><h6 id="h6-heading"><a class="header-anchor" href="#h6-heading">#</a>h6 Heading</h6><h2 id="horizontal-rules"><a class="header-anchor" href="#horizontal-rules">#</a>Horizontal Rules</h2><hr /><hr /><hr /><h2 id="typographic-replacements"><a class="header-anchor" href="#typographic-replacements">#</a>Typographic replacements</h2><p>Enable typographer option to see result.</p><p>© © ® ® ™ ™ § § ±</p><p>test… test… test… test?.. test!..</p><p>!!! ??? ,  – —</p><p>“Smartypants, double quotes” and ‘single quotes’</p><h2 id="emphasis"><a class="header-anchor" href="#emphasis">#</a>Emphasis</h2><p><strong>This is bold text</strong></p><p><strong>This is bold text</strong></p><p><em>This is italic text</em></p><p><em>This is italic text</em></p><p><s>Strikethrough</s></p><h2 id="blockquotes"><a class="header-anchor" href="#blockquotes">#</a>Blockquotes</h2><blockquote><p>Blockquotes can also be nested…</p><blockquote><p>…by using additional greater-than signs right next to each other…</p><blockquote><p>…or with spaces between arrows.</p></blockquote></blockquote></blockquote><h2 id="lists"><a class="header-anchor" href="#lists">#</a>Lists</h2><p>Unordered</p><ul><li>Create a list by starting a line with <code>+</code>, <code>-</code>, or <code>*</code></li><li>Sub-lists are made by indenting 2 spaces:<ul><li>Marker character change forces new list start:<ul><li>Ac tristique libero volutpat at</li></ul><ul><li>Facilisis in pretium nisl aliquet</li></ul><ul><li>Nulla volutpat aliquam velit</li></ul></li></ul></li><li>Very easy!</li></ul><p>Ordered</p><ol><li><p>Lorem ipsum dolor sit amet</p></li><li><p>Consectetur adipiscing elit</p></li><li><p>Integer molestie lorem at massa</p></li><li><p>You can use sequential numbers…</p></li><li><p>…or keep all the numbers as <code>1.</code></p></li></ol><p>Start numbering with offset:</p><ol start="57"><li>foo</li><li>bar</li></ol><h2 id="code"><a class="header-anchor" href="#code">#</a>Code</h2><p>Inline <code>code</code></p><p>Indented code</p><pre><code>// Some commentsline 1 of codeline 2 of codeline 3 of code</code></pre><p>Block code “fences”</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs plain">Sample text here...<br></code></pre></td></tr></table></figure><p>Syntax highlighting</p><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs js"><span class="hljs-keyword">var</span> foo = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">bar</span>) </span>&#123;<br>  <span class="hljs-keyword">return</span> bar++;<br>&#125;;<br><br><span class="hljs-built_in">console</span>.log(foo(<span class="hljs-number">5</span>));<br></code></pre></td></tr></table></figure><h2 id="tables"><a class="header-anchor" href="#tables">#</a>Tables</h2><table><thead><tr><th>Option</th><th>Description</th></tr></thead><tbody><tr><td>data</td><td>path to data files to supply the data that will be passed into templates.</td></tr><tr><td>engine</td><td>engine to be used for processing templates. Handlebars is the default.</td></tr><tr><td>ext</td><td>extension to be used for dest files.</td></tr></tbody></table><p>Right aligned columns</p><table><thead><tr><th style="text-align:right">Option</th><th style="text-align:right">Description</th></tr></thead><tbody><tr><td style="text-align:right">data</td><td style="text-align:right">path to data files to supply the data that will be passed into templates.</td></tr><tr><td style="text-align:right">engine</td><td style="text-align:right">engine to be used for processing templates. Handlebars is the default.</td></tr><tr><td style="text-align:right">ext</td><td style="text-align:right">extension to be used for dest files.</td></tr></tbody></table><h2 id="links"><a class="header-anchor" href="#links">#</a>Links</h2><p><a href="http://dev.nodeca.com" target="_blank" rel="noopener">link text</a></p><p><a href="http://nodeca.github.io/pica/demo/" target="_blank" rel="noopener" title="title text!">link with title</a></p><p>Autoconverted link <a href="https://github.com/nodeca/pica" target="_blank" rel="noopener">https://github.com/nodeca/pica</a> (enable linkify to see)</p><h2 id="images"><a class="header-anchor" href="#images">#</a>Images</h2><p><img src="https://octodex.github.com/images/minion.png" alt="Minion" /><br /><img src="https://octodex.github.com/images/stormtroopocat.jpg" alt="Stormtroopocat" title="The Stormtroopocat" /></p><p>Like links, Images also have a footnote style syntax</p><p><img src="https://octodex.github.com/images/dojocat.jpg" alt="Alt text" title="The Dojocat" /></p><p>With a reference later in the document defining the URL location:</p><h2 id="plugins"><a class="header-anchor" href="#plugins">#</a>Plugins</h2><p>The killer feature of <code>markdown-it</code> is very effective support of<br /><a href="https://www.npmjs.org/browse/keyword/markdown-it-plugin" target="_blank" rel="noopener">syntax plugins</a>.</p><h3 id="emojies"><a class="header-anchor" href="#emojies">#</a><a href="https://github.com/markdown-it/markdown-it-emoji" target="_blank" rel="noopener">Emojies</a></h3><blockquote><p>Classic markup: 😉 :crush: 😢 :tear: 😆 😋</p><p>Shortcuts (emoticons): 😃 😦 😎 😉</p></blockquote><p>see <a href="https://github.com/markdown-it/markdown-it-emoji#change-output" target="_blank" rel="noopener">how to change output</a> with twemoji.</p><h3 id="subscript-superscript"><a class="header-anchor" href="#subscript-superscript">#</a><a href="https://github.com/markdown-it/markdown-it-sub" target="_blank" rel="noopener">Subscript</a> / <a href="https://github.com/markdown-it/markdown-it-sup" target="_blank" rel="noopener">Superscript</a></h3><ul><li>19<sup>th</sup></li><li>H<sub>2</sub>O</li></ul><h3 id="ins"><a class="header-anchor" href="#ins">#</a><a href="https://github.com/markdown-it/markdown-it-ins" target="_blank" rel="noopener">&lt;ins&gt;</a></h3><p><ins>Inserted text</ins></p><h3 id="mark"><a class="header-anchor" href="#mark">#</a><a href="https://github.com/markdown-it/markdown-it-mark" target="_blank" rel="noopener">&lt;mark&gt;</a></h3><p><mark>Marked text</mark></p><h3 id="footnotes"><a class="header-anchor" href="#footnotes">#</a><a href="https://github.com/markdown-it/markdown-it-footnote" target="_blank" rel="noopener">Footnotes</a></h3><p>Footnote 1 link<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>.</p><p>Footnote 2 link<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup>.</p><p>Inline footnote<sup class="footnote-ref"><a href="#fn3" id="fnref3">[3]</a></sup> definition.</p><p>Duplicated footnote reference<sup class="footnote-ref"><a href="#fn2" id="fnref2:1">[2:1]</a></sup>.</p><h3 id="definition-lists"><a class="header-anchor" href="#definition-lists">#</a><a href="https://github.com/markdown-it/markdown-it-deflist" target="_blank" rel="noopener">Definition lists</a></h3><dl><dt>Term 1</dt><dd><p>Definition 1<br />with lazy continuation.</p></dd><dt>Term 2 with <em>inline markup</em></dt><dd><p>Definition 2</p><pre><code>  { some code, part of Definition 2 }</code></pre><p>Third paragraph of definition 2.</p></dd></dl><p><em>Compact style:</em></p><dl><dt>Term 1</dt><dd>Definition 1</dd><dt>Term 2</dt><dd>Definition 2a</dd><dd>Definition 2b</dd></dl><p><kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Del</kbd></p><p>$$<br />\mathbf{V}_1 \times \mathbf{V}_2 =  \begin{vmatrix}<br />\mathbf{i} &amp; \mathbf{j} &amp; \mathbf{k} \<br />\frac{\partial X}{\partial u} &amp;  \frac{\partial Y}{\partial u} &amp; 0 \<br />\frac{\partial X}{\partial v} &amp;  \frac{\partial Y}{\partial v} &amp; 0 \<br />\end{vmatrix}<br />$$</p><h3 id="abbreviations"><a class="header-anchor" href="#abbreviations">#</a><a href="https://github.com/markdown-it/markdown-it-abbr" target="_blank" rel="noopener">Abbreviations</a></h3><p>This is <abbr title="Hyper Text Markup Language">HTML</abbr> abbreviation example.</p><p>It converts “<abbr title="Hyper Text Markup Language">HTML</abbr>”, but keep intact partial entries like “xxxHTMLyyy” and so on.</p><h3 id="custom-containers"><a class="header-anchor" href="#custom-containers">#</a><a href="https://github.com/markdown-it/markdown-it-container" target="_blank" rel="noopener">Custom containers</a></h3><p>::: warning<br /><em>here be dragons</em><br />:::</p><hr class="footnotes-sep" /><section class="footnotes"><ol class="footnotes-list"><li id="fn1" class="footnote-item"><p>Footnote <strong>can have markup</strong></p><p>and multiple paragraphs. <a href="#fnref1" class="footnote-backref">↩︎</a></p></li><li id="fn2" class="footnote-item"><p>Footnote text. <a href="#fnref2" class="footnote-backref">↩︎</a> <a href="#fnref2:1" class="footnote-backref">↩︎</a></p></li><li id="fn3" class="footnote-item"><p>Text of inline footnote <a href="#fnref3" class="footnote-backref">↩︎</a></p></li></ol></section>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;h1-heading&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#h1-heading&quot;&gt;#&lt;/a&gt;h1 Heading&lt;/h1&gt;
+&lt;h2 id=&quot;h2-heading&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#h2-
+      
+    
+    </summary>
+    
+    
+      <category term="测试分类" scheme="http://localhost:4000/categories/%E6%B5%8B%E8%AF%95%E5%88%86%E7%B1%BB/"/>
+    
+    
+      <category term="测试标签" scheme="http://localhost:4000/tags/%E6%B5%8B%E8%AF%95%E6%A0%87%E7%AD%BE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>爱与死亡</title>
+    <link href="http://localhost:4000/2019/12/19/%E7%88%B1%E4%B8%8E%E6%AD%BB%E4%BA%A1/"/>
+    <id>http://localhost:4000/2019/12/19/%E7%88%B1%E4%B8%8E%E6%AD%BB%E4%BA%A1/</id>
+    <published>2019-12-19T10:00:00.000Z</published>
+    <updated>2020-01-17T06:23:32.465Z</updated>
+    
+    <content type="html"><![CDATA[<p>让-保罗·萨特曾在『何为存在主义』中写道：</p><blockquote><p>人注定要受自由之苦。</p></blockquote><p>用来描述我父亲的一生这再合适不过，我甚至曾经戏言，要在他的墓碑上刻上这一句。我料到了结局，却没料到这个结局来的这么早。</p><a id="more"></a><p>我的父亲，于<em>二〇一九年十月三十日十二时五十五分</em>因意外摔伤抢救无效离开了人世。而冬至将至，是时候去看看他，献上一束菊花。</p><p>上一次见他还是年后他和母亲在西客站与我送别。短短半年时间，一场意外毫无征兆地带走了一条生命。</p><p>这个男人，能做的事情很多，但会说的东西很少，一如我在他葬礼上的致辞：</p><blockquote><p>精于技术，疏于口才。</p></blockquote><p>父亲同我相处的时间其实并不算多，我的童年记忆中，他的痕迹并不深刻，但有一段还没有磨灭。我五年级的那个夏天，是他陪着我学骑自行车。之前也零零碎碎地练过，但那时的儿童车会在后轮的轴承两边加装两个辅助轮，反倒让学车的我难于掌握平衡，是以一直未曾学会，于是父亲给我把两个辅助轮卸了。记忆已然模糊，但那个炎炎的夏日，父亲在小路的那一头张开的双臂，吃力地歪歪斜斜地骑车的自己，还定格在我的脑海里。直到最后的那个下午，我仿若猛然顿悟一般，一溜烟踩着小车远去，又冲刺返回，终于学成，父亲脸上洋溢的笑容，想必那一刻，他也曾感到自豪吧。</p><p>说起来，我对父亲的感情其实挺复杂的。一方面他曾是我儿时钦佩的对象，甚至在和年幼玩伴的争执中，说出过「我爸爸什么都会修」这样的童稚之言；另一方面，在我从幼年到少年日渐成长的过程中，他曾做出的那些糊涂事，以及那些日子他从我生活中的淡出，让我失掉了曾经的钦佩。诚然，我的性情，有他的影（当然也有我母亲的），但我的人格还是在于<strong>自我塑造</strong>。作为一个独生子，儿时家教称得上是严苛，没有什么课后玩伴。于是，书本自然而然地成为了我远行的灯塔，这片浩瀚书海，塑造了我的人格，教导了我是非曲直，解答了 To be or not to be 的问题。即使如此，在他回归生活的不到十年的日子里，我还是能感受到他那种不同于母亲的默默无闻的如山的父爱，很多时候，父子之间的交互更多的是一种难以言表的默契。</p><p>我曾在上一篇文章『当我垂垂老矣，请让我有尊严地死去』中</p><blockquote><p>爱的反面是恨吗？<br />不，爱的反面是<strong>死亡</strong>。</p></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;让-保罗·萨特曾在『何为存在主义』中写道：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;人注定要受自由之苦。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;用来描述我父亲的一生这再合适不过，我甚至曾经戏言，要在他的墓碑上刻上这一句。我料到了结局，却没料到这个结局来的这么早。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="生活" scheme="http://localhost:4000/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+      <category term="爱与死亡" scheme="http://localhost:4000/tags/%E7%88%B1%E4%B8%8E%E6%AD%BB%E4%BA%A1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>当我垂垂老矣，请让我有尊严地死去</title>
+    <link href="http://localhost:4000/2014/05/14/%E5%BD%93%E6%88%91%E5%9E%82%E5%9E%82%E8%80%81%E7%9F%A3%EF%BC%8C%E8%AF%B7%E8%AE%A9%E6%88%91%E6%9C%89%E5%B0%8A%E4%B8%A5%E5%9C%B0%E6%AD%BB%E5%8E%BB/"/>
+    <id>http://localhost:4000/2014/05/14/%E5%BD%93%E6%88%91%E5%9E%82%E5%9E%82%E8%80%81%E7%9F%A3%EF%BC%8C%E8%AF%B7%E8%AE%A9%E6%88%91%E6%9C%89%E5%B0%8A%E4%B8%A5%E5%9C%B0%E6%AD%BB%E5%8E%BB/</id>
+    <published>2014-05-14T10:00:00.000Z</published>
+    <updated>2020-01-17T06:23:28.958Z</updated>
+    
+    <content type="html"><![CDATA[<p>昨天晚上看望卧病在床的爷爷。</p><p>在我的记忆中，几乎没有他的影子。一些黑历史的缘故，从小到大我都是住在外公外婆家。暴躁易怒，脾气不好，为人也不甚磊落，就是我耳中别人对他的评价。又因为我小时候怕猫，于是就私底下偷偷把他喊做“老猫”。</p><p>下棋时他毕生的爱好，儿时的我也喜欢下棋，那时候我还是他的手下败将。</p><a id="more"></a><p>约略我六岁那年，听闻他患上了老年痴呆，从前的精明世故的眼眸渐渐地变得浑浊而呆滞。</p><p>直到几年后，他又患上了中风之症，偏瘫了半边身子，从此就只能靠右手扶着墙，右腿拖着左腿行走，在那时我的眼中，那就像是一只蠕动的青虫。</p><p>又过了几年，我十二岁，一次在餐桌上，奶奶问我，你小时候不是喜欢和你爷爷下棋么，现在下一盘看看吧。我欣然答应，开了一局。虽然已经患上了不治之症，他的棋力依旧深厚，即使不复当年，但我也没能赢得了他。</p><p>后来，我上了初中，来的渐渐地少了，只能从父母的只字片语中了解到一些他的近况。说是他的身体一月不如一月，已经不能自己下楼了，自此蜗居在家。</p><p>高中时，奶奶也身体不再，于是和父亲及几个姑婶叔伯一商量，把他送进了附近的养老院。我每次抽空去看望他时，他已经是无法自理了，全靠护工清洁打理。我握着他的手，他总是用浑浊的眼眸紧紧盯着我，却不发一言，偶尔喊喊我的名字。</p><p>再后来，他已经一时糊涂一时清醒，几乎认不出身边的人来，也失去了语言的能力，只能支支吾吾地哼哼。我再去看望他时，他只是哭泣。</p><p>而现在，他正躺在床上，由于糖尿病与肺部感染地原因，艰难地呼吸，痛苦使他把手蜷缩在胸前，仿佛那就是他最后的遮羞布，能让他仅剩的一点做人的尊严得以保留。</p><p>他已垂垂老矣，只是任人摆布，甚至连自己的尊严也无力挽留，也不懂得如何挽留。我知道他已经退化衰竭的心中一定很痛苦，想要早早地了却余生，但又无能为力。</p><p>连死去的权利都被时光剥夺！<br />连有尊严地死去的权利都被时光剥夺！</p><p>身而为人，活着，不外乎二者其一。</p><p><strong>一则如狗，庸庸碌碌，忙里忙外，团团转转，整日疲于奔命;</strong><br /><strong>一则如猪，尸位素餐，放权享乐，坐吃山空，整日无所事事。</strong></p><p>而这二者又都只是以自己的方式挣得一丝做人的尊严。</p><p>但说到底，我自赤条条来，又赤条条去，尊严又从何谈起；</p><p>那些自己挣得的尊严也只在这百年的打磨中消泯殆尽。</p><p>我有个朋友曾认真地对我说，</p><blockquote><p>60岁我就自杀，不是我无法忍受病痛的折磨，不是我无法接受内心的空虚，是我不允许自己没有尊严地活着。</p></blockquote><p>现在，我有些理解他的想法了。</p><p>所以，当我垂垂老矣，请让我有尊严地死去。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;昨天晚上看望卧病在床的爷爷。&lt;/p&gt;
+&lt;p&gt;在我的记忆中，几乎没有他的影子。一些黑历史的缘故，从小到大我都是住在外公外婆家。暴躁易怒，脾气不好，为人也不甚磊落，就是我耳中别人对他的评价。又因为我小时候怕猫，于是就私底下偷偷把他喊做“老猫”。&lt;/p&gt;
+&lt;p&gt;下棋时他毕生的爱好，儿时的我也喜欢下棋，那时候我还是他的手下败将。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="生活" scheme="http://localhost:4000/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+      <category term="爱与死亡" scheme="http://localhost:4000/tags/%E7%88%B1%E4%B8%8E%E6%AD%BB%E4%BA%A1/"/>
+    
+  </entry>
+  
+</feed>
