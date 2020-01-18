@@ -7,12 +7,7 @@
  ----------------------------------------------------------*/
 /* 字体
  ----------------------------------------------------------*/
-@import url("https://fonts.googleapis.com/css?family=IM+Fell+Great+Primer+SC&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Noto+Serif+TC:200,300,400,500,600,700,900|Noto+Serif+SC:200,300,400,500,600,700,900&display=swap");
-@import url("https://fonts.googleapis.com/css?family=IM+Fell+Great+Primer+SC&display=swap");
-@import url("https://fonts.googleapis.com/css?family=IM+Fell+Great+Primer+SC&display=swap");
-@import url("https://fonts.googleapis.com/css?family=IM+Fell+Great+Primer+SC&display=swap");
-@import url("https://fonts.googleapis.com/css?family=IM+Fell+Great+Primer+SC&display=swap");
 @font-face {
   font-family: '源樣明體';
   src: url("../fonts/源樣明體/GenYoMinTW-ExtraLight.ttf");
@@ -104,10 +99,6 @@
   font-weight: 600; }
 
 @font-face {
-  font-family: '源界明朝';
-  src: url("../fonts/源界明朝/OradanoGSRR.ttf"); }
-
-@font-face {
   font-family: '台湾教育部隶书';
   src: url("../fonts/臺灣教育部體/eduLi.ttf"); }
 
@@ -123,49 +114,47 @@
  ----------------------------------------------------------*/
 ::-moz-selection {
   color: #FFFFFF;
-  background: #4f4f4f; }
+  background: #0A0A0A; }
 
 ::-webkit-selection {
   color: #FFFFFF;
-  background: #4f4f4f; }
+  background: #0A0A0A; }
 
 ::selection {
   color: #FFFFFF;
-  background: #4f4f4f; }
+  background: #0A0A0A; }
 
 ::-webkit-input-placeholder {
   /* WebKit browsers */
-  color: #4f4f4f; }
+  color: #0A0A0A; }
 
 :-moz-placeholder {
   /* Mozilla Firefox 4 to 18 */
-  color: #4f4f4f; }
+  color: #0A0A0A; }
 
 ::-moz-placeholder {
   /* Mozilla Firefox 19+ */
-  color: #4f4f4f; }
+  color: #0A0A0A; }
 
 :-ms-input-placeholder {
   /* Internet Explorer 10+ */
-  color: #4f4f4f; }
+  color: #0A0A0A; }
 
 /* 圆角
- --------------------------------------------------*/
-/* Font
  --------------------------------------------------*/
 html, body {
   width: 100vw;
   height: 100vh;
   margin: 0;
   padding: 0;
-  font-family: "源流明體", "GenRyuMin TW", "源流明體 TTF", serif;
+  font-family: "源流明體", "GenRyuMin TW", "源流明體 TTF", Noto Serif TC, Noto Serif SC, serif;
   font-size: 14px;
-  color: #292929;
+  color: #0A0A0A;
   background: #FFFFFF; }
 
 a {
   position: relative;
-  color: #292929;
+  color: #0A0A0A;
   text-decoration: none; }
 
 a:hover {
@@ -270,10 +259,6 @@ a:hover {
   font-weight: 600; }
 
 @font-face {
-  font-family: '源界明朝';
-  src: url("../fonts/源界明朝/OradanoGSRR.ttf"); }
-
-@font-face {
   font-family: '台湾教育部隶书';
   src: url("../fonts/臺灣教育部體/eduLi.ttf"); }
 
@@ -289,31 +274,31 @@ a:hover {
  ----------------------------------------------------------*/
 ::-moz-selection {
   color: #FFFFFF;
-  background: #4f4f4f; }
+  background: #0A0A0A; }
 
 ::-webkit-selection {
   color: #FFFFFF;
-  background: #4f4f4f; }
+  background: #0A0A0A; }
 
 ::selection {
   color: #FFFFFF;
-  background: #4f4f4f; }
+  background: #0A0A0A; }
 
 ::-webkit-input-placeholder {
   /* WebKit browsers */
-  color: #4f4f4f; }
+  color: #0A0A0A; }
 
 :-moz-placeholder {
   /* Mozilla Firefox 4 to 18 */
-  color: #4f4f4f; }
+  color: #0A0A0A; }
 
 ::-moz-placeholder {
   /* Mozilla Firefox 19+ */
-  color: #4f4f4f; }
+  color: #0A0A0A; }
 
 :-ms-input-placeholder {
   /* Internet Explorer 10+ */
-  color: #4f4f4f; }
+  color: #0A0A0A; }
 
 /* 圆角
  --------------------------------------------------*/
@@ -332,8 +317,8 @@ header ol, header ul {
     position: fixed;
     top: 0;
     height: calc(100vh - 111px);
-    width: 25%;
-    padding-top: 21px;
+    width: calc((100vw - 800px) / 2);
+    padding-top: 10px;
     text-align: right;
     font-family: "源樣明體", "GenYoMin TW", "源樣明體 TTF";
     overflow-x: hidden;
@@ -351,24 +336,9 @@ li.nav-list-item {
   position: relative;
   width: 100%;
   background: transparent; }
-  li.nav-list-item::after {
-    content: "";
-    box-sizing: border-box;
-    position: absolute;
-    top: -48px;
-    left: 0;
-    width: 100%;
-    height: 48px;
-    z-index: 1;
-    transition: top .2s ease-in-out; }
-  li.nav-list-item.active::after {
-    top: 0; }
-  li.nav-list-item:hover::after {
-    top: 0; }
   li.nav-list-item a {
     box-sizing: border-box;
     display: inline-block;
-    border-right: 2px solid transparent;
     width: 100%;
     height: 48px;
     margin-bottom: 12px;
@@ -376,33 +346,30 @@ li.nav-list-item {
     font-family: "源樣明體", "GenYoMin TW", "源樣明體 TTF";
     font-size: 20px;
     font-weight: 700;
-    color: #292929;
+    color: #0A0A0A;
     line-height: 48px;
     text-align: right;
     text-decoration: none;
-    transition: all .2s ease-in-out;
+    overflow: hidden;
     z-index: 999; }
     li.nav-list-item a.active, li.nav-list-item a:hover {
-      border-right: 2px solid #B69676;
-      font-weight: 900;
-      background: #F9F7F4; }
+      font-weight: 900; }
   li.nav-list-item a.home-link {
     height: auto;
+    position: relative;
     margin-bottom: 12px;
     padding: 36px;
-    border-right: 3px solid #292929;
-    font-weight: 900;
-    background: #F9F7F4; }
+    font-weight: 900; }
     li.nav-list-item a.home-link h1.home-title {
-      font-family: "IM Fell Great Primer SC", "源界明朝", "OrdanoGSRR";
+      font-family: "源樣明體", "GenYoMin TW", "源樣明體 TTF";
       font-size: 32px;
-      font-weight: 500;
+      font-weight: 900;
       line-height: 1.4; }
     li.nav-list-item a.home-link p.home-subtitle {
       margin-top: 12px;
-      font-family: "源界明朝", "OrdanoGSRR";
+      font-family: "源樣明體", "GenYoMin TW", "源樣明體 TTF";
       font-size: 18px;
-      font-weight: 500;
+      font-weight: 700;
       line-height: 1.2; }
 
 /* 路径
@@ -504,10 +471,6 @@ li.nav-list-item {
   font-weight: 600; }
 
 @font-face {
-  font-family: '源界明朝';
-  src: url("../fonts/源界明朝/OradanoGSRR.ttf"); }
-
-@font-face {
   font-family: '台湾教育部隶书';
   src: url("../fonts/臺灣教育部體/eduLi.ttf"); }
 
@@ -523,51 +486,68 @@ li.nav-list-item {
  ----------------------------------------------------------*/
 ::-moz-selection {
   color: #FFFFFF;
-  background: #4f4f4f; }
+  background: #0A0A0A; }
 
 ::-webkit-selection {
   color: #FFFFFF;
-  background: #4f4f4f; }
+  background: #0A0A0A; }
 
 ::selection {
   color: #FFFFFF;
-  background: #4f4f4f; }
+  background: #0A0A0A; }
 
 ::-webkit-input-placeholder {
   /* WebKit browsers */
-  color: #4f4f4f; }
+  color: #0A0A0A; }
 
 :-moz-placeholder {
   /* Mozilla Firefox 4 to 18 */
-  color: #4f4f4f; }
+  color: #0A0A0A; }
 
 ::-moz-placeholder {
   /* Mozilla Firefox 19+ */
-  color: #4f4f4f; }
+  color: #0A0A0A; }
 
 :-ms-input-placeholder {
   /* Internet Explorer 10+ */
-  color: #4f4f4f; }
+  color: #0A0A0A; }
 
 /* 圆角
  --------------------------------------------------*/
 /* Font
  --------------------------------------------------*/
+#topbar {
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 10px;
+  background: #0A0A0A;
+  z-index: 99999; }
+  #topbar .topbar-wrapper {
+    box-sizing: border-box;
+    width: 800px;
+    height: 10px;
+    margin: 0 auto;
+    padding-left: 732px; }
+    #topbar .topbar-wrapper::after {
+      content: '';
+      position: fixed;
+      top: 0;
+      width: 68px;
+      height: 10px;
+      background: #B69676; }
+
 #container {
-  margin: 0 auto 0 25%;
-  padding-right: 64px;
-  width: 100%;
+  position: relative;
+  width: 800px;
+  margin: 0 auto;
   min-height: 100vh; }
 
 #content {
-  width: 100%;
+  box-sizing: content-box;
+  width: 732px;
   min-height: 100vh;
-  padding: 20px 0;
-  box-shadow: 0 0 16px rgba(0, 0, 0, 0.12); }
-
-@media screen and (min-width: 732px) {
-  #container {
-    width: 732px; } }
+  padding: 10px 0; }
 
 h1.blog-title {
   min-width: 270px;
@@ -583,7 +563,7 @@ h1.blog-title {
   -webkit-font-smoothing: antialiased;
   vertical-align: middle;
   text-align: center;
-  color: #292929; }
+  color: #0A0A0A; }
 
 ul.index-list {
   list-style: none;
@@ -592,27 +572,24 @@ ul.index-list {
 
 li.index-item-wrapper {
   box-sizing: border-box; }
-  li.index-item-wrapper:hover {
-    background: #F9F7F4; }
 
 a.index-item {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 0 21px;
-  padding: 30px 0;
-  border-bottom: 1px solid rgba(128, 128, 128, 0.15);
+  padding: 21px 0;
   text-decoration: none; }
   a.index-item h2 {
     margin: 0 0 10px;
     font-family: "源樣明體", "GenYoMin TW", "源樣明體 TTF";
     font-size: 24px;
     font-weight: 700;
-    color: #292929; }
+    color: #0A0A0A; }
     a.index-item h2:hover, a.index-item h2:active {
       text-decoration: underline; }
   a.index-item span {
-    color: #9c9c9c; }
+    color: #7d7d7d; }
 
 .archive h2.archive-year {
   margin: 0 21px;
@@ -632,24 +609,21 @@ a.archive-link {
     align-items: flex-start;
     justify-content: space-between;
     padding: 0 21px; }
-    a.archive-link .archive-post-item-wrapper:hover {
-      background: #F9F7F4; }
     a.archive-link .archive-post-item-wrapper .archive-post-item {
       width: 100%;
-      padding: 30px 0;
-      border-bottom: 1px solid #E2E2E2; }
+      padding: 21px 0; }
       a.archive-link .archive-post-item-wrapper .archive-post-item h2 {
         margin: 0;
         font-size: 24px;
         font-weight: 600;
         font-family: "源樣明體", "GenYoMin TW", "源樣明體 TTF";
         line-height: 1.2;
-        color: #292929; }
+        color: #0A0A0A; }
         a.archive-link .archive-post-item-wrapper .archive-post-item h2:hover, a.archive-link .archive-post-item-wrapper .archive-post-item h2:active {
           text-decoration: underline; }
       a.archive-link .archive-post-item-wrapper .archive-post-item .post-time {
         margin: 12px 0 0;
-        color: dimgray; }
+        color: #4a4a4a; }
 
 .categories {
   padding: 0 21px; }
@@ -659,7 +633,7 @@ a.archive-link {
   .categories h2.categories-banner {
     padding: 21px 0;
     font-family: "源樣明體", "GenYoMin TW", "源樣明體 TTF";
-    font-size: 24px; }
+    font-size: 32px; }
   .categories .categories-content ul.categories-list {
     display: flex;
     align-items: flex-start;
@@ -668,20 +642,19 @@ a.archive-link {
     .categories .categories-content ul.categories-list a.categories-item {
       position: relative;
       margin: 0 12px 12px 0;
-      padding: 2px 16px;
+      padding: 2px 24px;
       font-family: "源樣明體", "GenYoMin TW", "源樣明體 TTF";
       font-size: 24px;
-      color: #292929;
+      color: #0A0A0A;
       text-decoration: none; }
       .categories .categories-content ul.categories-list a.categories-item:before, .categories .categories-content ul.categories-list a.categories-item:after {
         position: absolute;
         top: 0;
         color: #E2E2E2; }
       .categories .categories-content ul.categories-list a.categories-item:before {
-        content: '{';
+        content: '@';
         left: 0; }
       .categories .categories-content ul.categories-list a.categories-item:after {
-        content: '}';
         right: 0; }
       .categories .categories-content ul.categories-list a.categories-item:hover .categories-name, .categories .categories-content ul.categories-list a.categories-item:active .categories-name {
         text-decoration: underline; }
@@ -696,11 +669,12 @@ a.archive-link {
         color: #B69676;
         text-decoration: none; }
   .categories .categories-content ul.category-list {
+    padding-top: 21px;
     list-style: none; }
     .categories .categories-content ul.category-list a.category-item {
       font-family: "源樣明體", "GenYoMin TW", "源樣明體 TTF";
       font-size: 24px;
-      color: #292929;
+      color: #0A0A0A;
       text-decoration: none; }
       .categories .categories-content ul.category-list a.category-item:hover .category-item-title, .categories .categories-content ul.category-list a.category-item:active .category-item-title {
         text-decoration: underline; }
@@ -708,16 +682,15 @@ a.archive-link {
         display: inline-block;
         position: relative;
         margin: 0 12px 12px 0;
-        padding: 2px 16px; }
+        padding: 2px 24px; }
         .categories .categories-content ul.category-list a.category-item li.category-item-wrapper:before, .categories .categories-content ul.category-list a.category-item li.category-item-wrapper:after {
           position: absolute;
           top: 0;
           color: #E2E2E2; }
         .categories .categories-content ul.category-list a.category-item li.category-item-wrapper:before {
-          content: '{';
+          content: '@';
           left: 0; }
         .categories .categories-content ul.category-list a.category-item li.category-item-wrapper:after {
-          content: '}';
           right: 0; }
       .categories .categories-content ul.category-list a.category-item h3.category-item-title {
         display: inline-block;
@@ -738,7 +711,7 @@ a.archive-link {
   .tags h2.tags-banner {
     padding: 21px 0;
     font-family: "源樣明體", "GenYoMin TW", "源樣明體 TTF";
-    font-size: 24px; }
+    font-size: 32px; }
   .tags .tags-content ul.tags-list {
     display: flex;
     align-items: flex-start;
@@ -747,20 +720,19 @@ a.archive-link {
     .tags .tags-content ul.tags-list a.tags-item {
       position: relative;
       margin: 0 12px 12px 0;
-      padding: 2px 16px;
+      padding: 2px 18px;
       font-family: "源樣明體", "GenYoMin TW", "源樣明體 TTF";
       font-size: 24px;
-      color: #292929;
+      color: #0A0A0A;
       text-decoration: none; }
       .tags .tags-content ul.tags-list a.tags-item:before, .tags .tags-content ul.tags-list a.tags-item:after {
         position: absolute;
         top: 0;
         color: #E2E2E2; }
       .tags .tags-content ul.tags-list a.tags-item:before {
-        content: '[';
+        content: '#';
         left: 0; }
       .tags .tags-content ul.tags-list a.tags-item:after {
-        content: ']';
         right: 0; }
       .tags .tags-content ul.tags-list a.tags-item:hover .tags-name, .tags .tags-content ul.tags-list a.tags-item:active .tags-name {
         text-decoration: underline; }
@@ -773,11 +745,12 @@ a.archive-link {
         color: #B69676;
         text-decoration: none; }
   .tags .tags-content ul.tag-list {
+    padding-top: 21px;
     list-style: none; }
     .tags .tags-content ul.tag-list a.tag-item {
       font-family: "源樣明體", "GenYoMin TW", "源樣明體 TTF";
       font-size: 24px;
-      color: #292929;
+      color: #0A0A0A;
       text-decoration: none; }
       .tags .tags-content ul.tag-list a.tag-item:hover .tag-item-title, .tags .tags-content ul.tag-list a.tag-item:active .tag-item-title {
         text-decoration: underline; }
@@ -785,16 +758,15 @@ a.archive-link {
         display: inline-block;
         position: relative;
         margin: 0 12px 12px 0;
-        padding: 2px 16px; }
+        padding: 2px 24px; }
         .tags .tags-content ul.tag-list a.tag-item li:before, .tags .tags-content ul.tag-list a.tag-item li:after {
           position: absolute;
           top: 0;
           color: #E2E2E2; }
         .tags .tags-content ul.tag-list a.tag-item li:before {
-          content: '[';
+          content: '#';
           left: 0; }
         .tags .tags-content ul.tag-list a.tag-item li:after {
-          content: ']';
           right: 0; }
       .tags .tags-content ul.tag-list a.tag-item h3.tag-item-title {
         display: inline-block;
@@ -813,11 +785,27 @@ a.archive-link {
   font-family: "源樣明體", "GenYoMin TW", "源樣明體 TTF";
   font-weight: 700;
   font-size: 32px;
-  color: #292929; }
+  color: #0A0A0A; }
 
 .post-time, .post-updated {
-  color: #9c9c9c;
+  color: #7d7d7d;
   margin: 12px 21px; }
+
+.post-info {
+  display: flex;
+  align-items: baseline;
+  margin: 12px 21px; }
+  .post-info a {
+    margin-right: 5px;
+    color: #B69676; }
+  .post-info .post-categories a:before,
+  .post-info .post-tags a:before {
+    margin-right: 2px;
+    color: #8a8a8a; }
+  .post-info .post-categories a:before {
+    content: '@'; }
+  .post-info .post-tags a:before {
+    content: '#'; }
 
 /* 路径
  ----------------------------------------------------------*/
@@ -918,10 +906,6 @@ a.archive-link {
   font-weight: 600; }
 
 @font-face {
-  font-family: '源界明朝';
-  src: url("../fonts/源界明朝/OradanoGSRR.ttf"); }
-
-@font-face {
   font-family: '台湾教育部隶书';
   src: url("../fonts/臺灣教育部體/eduLi.ttf"); }
 
@@ -937,31 +921,31 @@ a.archive-link {
  ----------------------------------------------------------*/
 ::-moz-selection {
   color: #FFFFFF;
-  background: #4f4f4f; }
+  background: #0A0A0A; }
 
 ::-webkit-selection {
   color: #FFFFFF;
-  background: #4f4f4f; }
+  background: #0A0A0A; }
 
 ::selection {
   color: #FFFFFF;
-  background: #4f4f4f; }
+  background: #0A0A0A; }
 
 ::-webkit-input-placeholder {
   /* WebKit browsers */
-  color: #4f4f4f; }
+  color: #0A0A0A; }
 
 :-moz-placeholder {
   /* Mozilla Firefox 4 to 18 */
-  color: #4f4f4f; }
+  color: #0A0A0A; }
 
 ::-moz-placeholder {
   /* Mozilla Firefox 19+ */
-  color: #4f4f4f; }
+  color: #0A0A0A; }
 
 :-ms-input-placeholder {
   /* Internet Explorer 10+ */
-  color: #4f4f4f; }
+  color: #0A0A0A; }
 
 .post-content {
   padding: 0 21px;
@@ -1006,7 +990,7 @@ a.archive-link {
     align-items: center;
     position: relative;
     padding-left: 10px;
-    font-family: "源流明體", "GenRyuMin TW", "源流明體 TTF", serif;
+    font-family: "源流明體", "GenRyuMin TW", "源流明體 TTF", Noto Serif TC, Noto Serif SC, serif;
     font-weight: 700; }
     .post-content h1 a.header-anchor, .post-content h2 a.header-anchor, .post-content h3 a.header-anchor, .post-content h4 a.header-anchor, .post-content h5 a.header-anchor, .post-content h6 a.header-anchor {
       position: absolute;
@@ -1089,11 +1073,11 @@ a.archive-link {
     .post-content figure.highlight .hljs {
       background: transparent;
       font-family: "Fira Mono", "Fira Code", "Source Code Pro", "Roboto Mono", Monaco, courier, monospace;
-      color: #292929; }
+      color: #0A0A0A; }
   .post-content mark {
     padding: 0 3px;
     background-color: #F1EAE4;
-    color: #292929; }
+    color: #0A0A0A; }
   .post-content abbr {
     margin: 0 2px;
     padding: 2px 4px;
@@ -1113,44 +1097,35 @@ a.archive-link {
     border-radius: 3px;
     background: #FFFFFF;
     font: 11px "Fira Mono", "Fira Code", "Source Code Pro", "Roboto Mono", Monaco, courier, monospace;
-    color: #292929;
+    color: #0A0A0A;
     line-height: 1.4;
     text-shadow: 0 1px 0 #FFFFFF;
     box-shadow: 0 2px 0 rgba(0, 0, 0, 0.2), 0 1px 0 #FFFFFF inset; }
 
 #paginator {
-  margin: 0 auto; }
-
-@media screen and (min-width: 732px) {
-  #paginator {
-    width: 732px;
-    margin: 0 auto; } }
+  width: 100%; }
 
 .paginator {
   display: flex;
-  justify-content: center;
-  margin: 24px 0; }
+  justify-content: space-between;
+  align-items: baseline;
+  height: 100%;
+  margin: 0 21px;
+  padding: 21px 0; }
   .paginator a.prev, .paginator a.next {
     position: relative;
-    padding: 7px 14px;
-    margin: 0 14px;
-    font-weight: 700;
-    line-height: 1.4;
-    letter-spacing: .05em;
-    color: #B69676; }
-  .paginator a.prev::before, .paginator a.next::after {
-    position: absolute;
-    transition: all .2s ease; }
-  .paginator a.prev::before {
-    content: "{";
-    left: 5px; }
-  .paginator a.next::after {
-    content: "}";
-    right: 5px; }
-  .paginator a.prev:hover::before {
-    left: 2px; }
-  .paginator a.next:hover::after {
-    right: 2px; }
+    width: 50%;
+    line-height: 1.5;
+    font-size: 16px;
+    color: #B69676;
+    overflow: hidden;
+    transition: box-shadow .2s ease; }
+    .paginator a.prev span, .paginator a.next span {
+      display: block; }
+  .paginator a.prev {
+    text-align: left; }
+  .paginator a.next {
+    text-align: right; }
 
 #comments {
   box-sizing: border-box;
@@ -1259,10 +1234,6 @@ a.archive-link {
   font-weight: 600; }
 
 @font-face {
-  font-family: '源界明朝';
-  src: url("../fonts/源界明朝/OradanoGSRR.ttf"); }
-
-@font-face {
   font-family: '台湾教育部隶书';
   src: url("../fonts/臺灣教育部體/eduLi.ttf"); }
 
@@ -1278,31 +1249,31 @@ a.archive-link {
  ----------------------------------------------------------*/
 ::-moz-selection {
   color: #FFFFFF;
-  background: #4f4f4f; }
+  background: #0A0A0A; }
 
 ::-webkit-selection {
   color: #FFFFFF;
-  background: #4f4f4f; }
+  background: #0A0A0A; }
 
 ::selection {
   color: #FFFFFF;
-  background: #4f4f4f; }
+  background: #0A0A0A; }
 
 ::-webkit-input-placeholder {
   /* WebKit browsers */
-  color: #4f4f4f; }
+  color: #0A0A0A; }
 
 :-moz-placeholder {
   /* Mozilla Firefox 4 to 18 */
-  color: #4f4f4f; }
+  color: #0A0A0A; }
 
 ::-moz-placeholder {
   /* Mozilla Firefox 19+ */
-  color: #4f4f4f; }
+  color: #0A0A0A; }
 
 :-ms-input-placeholder {
   /* Internet Explorer 10+ */
-  color: #4f4f4f; }
+  color: #0A0A0A; }
 
 footer {
   position: fixed;
@@ -1311,7 +1282,7 @@ footer {
   width: 25%;
   padding: 20px 0 50px 0;
   text-align: right;
-  color: #4f4f4f; }
+  color: #303030; }
   footer * {
     margin: 0;
     padding: 0; }
@@ -1321,7 +1292,7 @@ footer {
   margin-right: 36px; }
 
 footer a, footer a:link {
-  color: #4f4f4f;
+  color: #303030;
   font-weight: 400;
   text-decoration: none;
   word-wrap: break-word;
@@ -1331,20 +1302,20 @@ footer a, footer a:link {
     text-decoration: underline; }
 
 .copyright {
-  font-family: PingFang SC, PingFang TC, Lato, Helvetica Neue, Arial, sans-serif;
+  font-family: PingFang TC, PingFang SC, Lato, Helvetica Neue, Arial, sans-serif;
   font-size: 14px;
   font-weight: 300; }
 
 .footer-copyright-year {
   display: inline-block;
   margin-right: 3px;
-  font-family: PingFang SC, PingFang TC, Lato, Helvetica Neue, Arial, sans-serif;
+  font-family: PingFang TC, PingFang SC, Lato, Helvetica Neue, Arial, sans-serif;
   font-weight: 300; }
 
 .footer-copyright-within {
   display: inline-block;
   margin: 0 3px;
-  font-family: PingFang SC, PingFang TC, Lato, Helvetica Neue, Arial, sans-serif;
+  font-family: PingFang TC, PingFang SC, Lato, Helvetica Neue, Arial, sans-serif;
   font-size: inherit;
   font-weight: 900;
   -webkit-font-smoothing: antialiased;
@@ -1354,7 +1325,7 @@ footer a, footer a:link {
 
 .powered-by, .theme-info {
   display: inline-block;
-  font-family: PingFang SC, PingFang TC, Lato, Helvetica Neue, Arial, sans-serif;
+  font-family: PingFang TC, PingFang SC, Lato, Helvetica Neue, Arial, sans-serif;
   font-weight: 300; }
   .powered-by a, .powered-by a:link, .theme-info a, .theme-info a:link {
     font-family: inherit;
