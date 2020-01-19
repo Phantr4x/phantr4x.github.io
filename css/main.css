@@ -796,12 +796,19 @@ a.archive-link {
   align-items: baseline;
   margin: 12px 21px; }
   .post-info a {
+    padding: 2px 5px;
     margin-right: 5px;
-    color: #B69676; }
+    border: 1px solid #B69676;
+    border-radius: 3px;
+    background: #FFFFFF;
+    color: #B69676;
+    text-decoration: none; }
+    .post-info a:hover, .post-info a:active {
+      background: #B69676;
+      color: #FFFFFF; }
   .post-info .post-categories a:before,
   .post-info .post-tags a:before {
-    margin-right: 2px;
-    color: #8a8a8a; }
+    margin-right: 1px; }
   .post-info .post-categories a:before {
     content: '@'; }
   .post-info .post-tags a:before {
@@ -1135,6 +1142,30 @@ a.archive-link {
   #comments {
     width: 732px; } }
 
+#gitalk-container a,
+#gitalk-container a.gt-link-counts,
+#gitalk-container a.gt-header-controls-tip,
+#gitalk-container a.gt-comment-username {
+  color: #B69676 !important; }
+
+#gitalk-container a.gt-link {
+  border-bottom: 1px dotted #B69676 !important; }
+
+#gitalk-container .gt-btn-login {
+  border-color: #B69676 !important;
+  background-color: #B69676 !important; }
+
+#gitalk-container .gt-btn-preview {
+  border-color: #B69676 !important;
+  color: #B69676 !important; }
+
+#gitalk-container .gt-comment-content {
+  background: #F9F7F4 !important; }
+
+#gitalk-container svg,
+#gitalk-container .gt-svg {
+  fill: #B69676 !important; }
+
 /* 路径
  ----------------------------------------------------------*/
 /* 配色
@@ -1288,7 +1319,10 @@ footer {
     padding: 0; }
 
 .footer-wrapper {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
   margin-right: 36px; }
 
 footer a, footer a:link {
@@ -1323,10 +1357,10 @@ footer a, footer a:link {
   .footer-copyright-within:before {
     content: "🐺"; }
 
-.powered-by, .theme-info {
+.powered-by, .theme, .more {
   display: inline-block;
   font-family: PingFang TC, PingFang SC, Lato, Helvetica Neue, Arial, sans-serif;
   font-weight: 300; }
-  .powered-by a, .powered-by a:link, .theme-info a, .theme-info a:link {
+  .powered-by a, .powered-by a:link, .theme a, .theme a:link, .more a, .more a:link {
     font-family: inherit;
-    margin: 0 5px; }
+    padding: 0 5px; }
