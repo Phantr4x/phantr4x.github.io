@@ -5,12 +5,12 @@
   <subtitle>文章墨點，述諸字節</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://blog.sh7.me/"/>
-  <updated>2020-01-19T02:13:31.618Z</updated>
-  <id>https://blog.sh7.me/</id>
+  <link href="https://blog.diruso.me/"/>
+  <updated>2020-01-20T13:56:09.904Z</updated>
+  <id>https://blog.diruso.me/</id>
   
   <author>
-    <name>Sh7me</name>
+    <name>Diruso</name>
     
   </author>
   
@@ -18,10 +18,10 @@
   
   <entry>
     <title>测试文章 Test Post</title>
-    <link href="https://blog.sh7.me/2020/01/08/test/"/>
-    <id>https://blog.sh7.me/2020/01/08/test/</id>
+    <link href="https://blog.diruso.me/2020/01/08/test/"/>
+    <id>https://blog.diruso.me/2020/01/08/test/</id>
     <published>2020-01-08T04:00:00.000Z</published>
-    <updated>2020-01-19T02:13:31.618Z</updated>
+    <updated>2020-01-20T13:56:09.904Z</updated>
     
     <content type="html"><![CDATA[<h1 id="h1-heading"><a class="header-anchor" href="#h1-heading">#</a>h1 Heading</h1><h2 id="h2-heading"><a class="header-anchor" href="#h2-heading">#</a>h2 Heading</h2><h3 id="h3-heading"><a class="header-anchor" href="#h3-heading">#</a>h3 Heading</h3><h4 id="h4-heading"><a class="header-anchor" href="#h4-heading">#</a>h4 Heading</h4><h5 id="h5-heading"><a class="header-anchor" href="#h5-heading">#</a>h5 Heading</h5><h6 id="h6-heading"><a class="header-anchor" href="#h6-heading">#</a>h6 Heading</h6><h2 id="horizontal-rules"><a class="header-anchor" href="#horizontal-rules">#</a>Horizontal Rules</h2><hr /><hr /><hr /><h2 id="typographic-replacements"><a class="header-anchor" href="#typographic-replacements">#</a>Typographic replacements</h2><p>Enable typographer option to see result.</p><p>© © ® ® ™ ™ § § ±</p><p>test… test… test… test?.. test!..</p><p>!!! ??? ,  – —</p><p>“Smartypants, double quotes” and ‘single quotes’</p><h2 id="emphasis"><a class="header-anchor" href="#emphasis">#</a>Emphasis</h2><p><strong>This is bold text</strong></p><p><strong>This is bold text</strong></p><p><em>This is italic text</em></p><p><em>This is italic text</em></p><p><s>Strikethrough</s></p><h2 id="blockquotes"><a class="header-anchor" href="#blockquotes">#</a>Blockquotes</h2><blockquote><p>Blockquotes can also be nested…</p><blockquote><p>…by using additional greater-than signs right next to each other…</p><blockquote><p>…or with spaces between arrows.</p></blockquote></blockquote></blockquote><h2 id="lists"><a class="header-anchor" href="#lists">#</a>Lists</h2><p>Unordered</p><ul><li>Create a list by starting a line with <code>+</code>, <code>-</code>, or <code>*</code></li><li>Sub-lists are made by indenting 2 spaces:<ul><li>Marker character change forces new list start:<ul><li>Ac tristique libero volutpat at</li></ul><ul><li>Facilisis in pretium nisl aliquet</li></ul><ul><li>Nulla volutpat aliquam velit</li></ul></li></ul></li><li>Very easy!</li></ul><p>Ordered</p><ol><li><p>Lorem ipsum dolor sit amet</p></li><li><p>Consectetur adipiscing elit</p></li><li><p>Integer molestie lorem at massa</p></li><li><p>You can use sequential numbers…</p></li><li><p>…or keep all the numbers as <code>1.</code></p></li></ol><p>Start numbering with offset:</p><ol start="57"><li>foo</li><li>bar</li></ol><h2 id="code"><a class="header-anchor" href="#code">#</a>Code</h2><p>Inline <code>code</code></p><p>Indented code</p><pre><code>// Some commentsline 1 of codeline 2 of codeline 3 of code</code></pre><p>Block code “fences”</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs plain">Sample text here...<br></code></pre></td></tr></table></figure><p>Syntax highlighting</p><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs js"><span class="hljs-keyword">var</span> foo = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">bar</span>) </span>&#123;<br>  <span class="hljs-keyword">return</span> bar++;<br>&#125;;<br><br><span class="hljs-built_in">console</span>.log(foo(<span class="hljs-number">5</span>));<br></code></pre></td></tr></table></figure><h2 id="tables"><a class="header-anchor" href="#tables">#</a>Tables</h2><table><thead><tr><th>Option</th><th>Description</th></tr></thead><tbody><tr><td>data</td><td>path to data files to supply the data that will be passed into templates.</td></tr><tr><td>engine</td><td>engine to be used for processing templates. Handlebars is the default.</td></tr><tr><td>ext</td><td>extension to be used for dest files.</td></tr></tbody></table><p>Right aligned columns</p><table><thead><tr><th style="text-align:right">Option</th><th style="text-align:right">Description</th></tr></thead><tbody><tr><td style="text-align:right">data</td><td style="text-align:right">path to data files to supply the data that will be passed into templates.</td></tr><tr><td style="text-align:right">engine</td><td style="text-align:right">engine to be used for processing templates. Handlebars is the default.</td></tr><tr><td style="text-align:right">ext</td><td style="text-align:right">extension to be used for dest files.</td></tr></tbody></table><h2 id="links"><a class="header-anchor" href="#links">#</a>Links</h2><p><a href="http://dev.nodeca.com" target="_blank" rel="noopener">link text</a></p><p><a href="http://nodeca.github.io/pica/demo/" target="_blank" rel="noopener" title="title text!">link with title</a></p><p>Autoconverted link <a href="https://github.com/nodeca/pica" target="_blank" rel="noopener">https://github.com/nodeca/pica</a> (enable linkify to see)</p><h2 id="images"><a class="header-anchor" href="#images">#</a>Images</h2><p><img src="https://octodex.github.com/images/minion.png" alt="Minion" /><br /><img src="https://octodex.github.com/images/stormtroopocat.jpg" alt="Stormtroopocat" title="The Stormtroopocat" /></p><p>Like links, Images also have a footnote style syntax</p><p><img src="https://octodex.github.com/images/dojocat.jpg" alt="Alt text" title="The Dojocat" /></p><p>With a reference later in the document defining the URL location:</p><h2 id="plugins"><a class="header-anchor" href="#plugins">#</a>Plugins</h2><p>The killer feature of <code>markdown-it</code> is very effective support of<br /><a href="https://www.npmjs.org/browse/keyword/markdown-it-plugin" target="_blank" rel="noopener">syntax plugins</a>.</p><h3 id="emojies"><a class="header-anchor" href="#emojies">#</a><a href="https://github.com/markdown-it/markdown-it-emoji" target="_blank" rel="noopener">Emojies</a></h3><blockquote><p>Classic markup: 😉 :crush: 😢 :tear: 😆 😋</p><p>Shortcuts (emoticons): 😃 😦 😎 😉</p></blockquote><p>see <a href="https://github.com/markdown-it/markdown-it-emoji#change-output" target="_blank" rel="noopener">how to change output</a> with twemoji.</p><h3 id="subscript-superscript"><a class="header-anchor" href="#subscript-superscript">#</a><a href="https://github.com/markdown-it/markdown-it-sub" target="_blank" rel="noopener">Subscript</a> / <a href="https://github.com/markdown-it/markdown-it-sup" target="_blank" rel="noopener">Superscript</a></h3><ul><li>19<sup>th</sup></li><li>H<sub>2</sub>O</li></ul><h3 id="ins"><a class="header-anchor" href="#ins">#</a><a href="https://github.com/markdown-it/markdown-it-ins" target="_blank" rel="noopener">&lt;ins&gt;</a></h3><p><ins>Inserted text</ins></p><h3 id="mark"><a class="header-anchor" href="#mark">#</a><a href="https://github.com/markdown-it/markdown-it-mark" target="_blank" rel="noopener">&lt;mark&gt;</a></h3><p><mark>Marked text</mark></p><h3 id="footnotes"><a class="header-anchor" href="#footnotes">#</a><a href="https://github.com/markdown-it/markdown-it-footnote" target="_blank" rel="noopener">Footnotes</a></h3><p>Footnote 1 link<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>.</p><p>Footnote 2 link<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup>.</p><p>Inline footnote<sup class="footnote-ref"><a href="#fn3" id="fnref3">[3]</a></sup> definition.</p><p>Duplicated footnote reference<sup class="footnote-ref"><a href="#fn2" id="fnref2:1">[2:1]</a></sup>.</p><h3 id="definition-lists"><a class="header-anchor" href="#definition-lists">#</a><a href="https://github.com/markdown-it/markdown-it-deflist" target="_blank" rel="noopener">Definition lists</a></h3><dl><dt>Term 1</dt><dd><p>Definition 1<br />with lazy continuation.</p></dd><dt>Term 2 with <em>inline markup</em></dt><dd><p>Definition 2</p><pre><code>  { some code, part of Definition 2 }</code></pre><p>Third paragraph of definition 2.</p></dd></dl><p><em>Compact style:</em></p><dl><dt>Term 1</dt><dd>Definition 1</dd><dt>Term 2</dt><dd>Definition 2a</dd><dd>Definition 2b</dd></dl><h3 id="abbreviations"><a class="header-anchor" href="#abbreviations">#</a><a href="https://github.com/markdown-it/markdown-it-abbr" target="_blank" rel="noopener">Abbreviations</a></h3><p>This is <abbr title="Hyper Text Markup Language">HTML</abbr> abbreviation example.</p><p>It converts “<abbr title="Hyper Text Markup Language">HTML</abbr>”, but keep intact partial entries like “xxxHTMLyyy” and so on.</p><h3 id="latex"><a class="header-anchor" href="#latex">#</a>LaTeX</h3><p>$$<br />\mathbf{V}_1 \times \mathbf{V}_2 =  \begin{vmatrix}<br />\mathbf{i} &amp; \mathbf{j} &amp; \mathbf{k} \<br />\frac{\partial X}{\partial u} &amp;  \frac{\partial Y}{\partial u} &amp; 0 \<br />\frac{\partial X}{\partial v} &amp;  \frac{\partial Y}{\partial v} &amp; 0 \<br />\end{vmatrix}<br />$$</p><h3 id="kbd"><a class="header-anchor" href="#kbd">#</a>&lt;KBD&gt;</h3><p><kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Del</kbd></p><hr class="footnotes-sep" /><section class="footnotes"><ol class="footnotes-list"><li id="fn1" class="footnote-item"><p>Footnote <strong>can have markup</strong></p><p>and multiple paragraphs. <a href="#fnref1" class="footnote-backref">↩︎</a></p></li><li id="fn2" class="footnote-item"><p>Footnote text. <a href="#fnref2" class="footnote-backref">↩︎</a> <a href="#fnref2:1" class="footnote-backref">↩︎</a></p></li><li id="fn3" class="footnote-item"><p>Text of inline footnote <a href="#fnref3" class="footnote-backref">↩︎</a></p></li></ol></section>]]></content>
     
@@ -36,17 +36,17 @@
     </summary>
     
     
-      <category term="测试分类" scheme="https://blog.sh7.me/categories/%E6%B5%8B%E8%AF%95%E5%88%86%E7%B1%BB/"/>
+      <category term="测试分类" scheme="https://blog.diruso.me/categories/%E6%B5%8B%E8%AF%95%E5%88%86%E7%B1%BB/"/>
     
     
-      <category term="测试标签" scheme="https://blog.sh7.me/tags/%E6%B5%8B%E8%AF%95%E6%A0%87%E7%AD%BE/"/>
+      <category term="测试标签" scheme="https://blog.diruso.me/tags/%E6%B5%8B%E8%AF%95%E6%A0%87%E7%AD%BE/"/>
     
   </entry>
   
   <entry>
     <title>当我垂垂老矣，请让我有尊严地死去</title>
-    <link href="https://blog.sh7.me/2014/05/14/when-i-am-old-let-me-die-with-dignity/"/>
-    <id>https://blog.sh7.me/2014/05/14/when-i-am-old-let-me-die-with-dignity/</id>
+    <link href="https://blog.diruso.me/2014/05/14/when-i-am-old-let-me-die-with-dignity/"/>
+    <id>https://blog.diruso.me/2014/05/14/when-i-am-old-let-me-die-with-dignity/</id>
     <published>2014-05-14T10:00:00.000Z</published>
     <updated>2020-01-19T02:10:58.845Z</updated>
     
@@ -61,10 +61,10 @@
     </summary>
     
     
-      <category term="生活" scheme="https://blog.sh7.me/categories/%E7%94%9F%E6%B4%BB/"/>
+      <category term="生活" scheme="https://blog.diruso.me/categories/%E7%94%9F%E6%B4%BB/"/>
     
     
-      <category term="爱与死" scheme="https://blog.sh7.me/tags/%E7%88%B1%E4%B8%8E%E6%AD%BB/"/>
+      <category term="爱与死" scheme="https://blog.diruso.me/tags/%E7%88%B1%E4%B8%8E%E6%AD%BB/"/>
     
   </entry>
   
